@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .Navbar{
+            background-color: lightpink;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+       
+        body{
+            background-color: peachpuff;
+        
+        }
+
+        .Footer{
+            background-color: lightpink;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 20px;
+        }
+        .header {
+            padding: 10px 16px;
+            background:violet;
+            color: #f1f1f1;
+            text-align: center;
+          }
+          
+          .content {
+            padding: 16px;
+          }
+          
+          .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+          }
+          
+          .sticky + .content {
+            padding-top: 102px;
+          }
+        
+    </style>
+</head>
+<body>
+  <Marquee>SHE STAR </Marquee>
+  
+
+    <nav class="Navbar">
+        
+       <a href="../">Home</a>
+       <a href="star.html">She-star</a>
+       <a href="about.html">About</a>
+       <a href="contacts.html">Contact</a>
+       <a href="reportcase.html">Report case</a>
+
+    
+    </nav>
+   
+
+    <div class="header" id="myHeader">
+        <h1>She-star</h1>
+      </div>
+      
+
+<div class="card-group">
+    <div class="card">
+      <img src="/images/gender3.jpg" class="card-img-top" alt="Gender equality">
+      <div class="card-body">
+        <h5 class="">Equal access to justice</h5>
+        <p class="card-text">Womens access to justice is a legal and constitutianal framework that guarantees womens right,<br>but without education,awareness of rightsand decision making.</p>
+</div>
+     
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images/gender4.jpg" class="card-img-top" alt="Gender equality">
+      <div class="card-body">
+        <h5 class=""> Balanced participation</h5>
+        <p class="card-text">Balanced participation of women and men in Political and public decision-making<br> is a key indicator of gender equality and womens full enjoymnt of their human rights,<br>a condition for equality,social justice and cohesion.</p>
+      
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="/images/gender5.jpg" class="card-img-top" alt="Gender equality">
+      <div class="card-body">
+        <h5 class="card-title">gender equality</h5>
+        <p class="card-text">Gender equality (sexual equality) is the state of equal ease<br> of access to resources and opportunities regardless of gender,including;economic participation and decision making. </p>
+      </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+    </div>
+    </div>
+</div>
+
+    <footer class="Footer">
+        <a href="pages/aboutus.html">About Us</a>
+        <a href="pages/contact.html"> Contact</a>
+        <p>She-star</p>
+ 
+    </footer>
+  
+
+</body>
+</html>
